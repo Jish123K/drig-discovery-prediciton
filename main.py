@@ -23,7 +23,6 @@ class DrugDataset(Dataset):
         self.data_dir = data_dir
 
         self.transform = transform
-
         self.smiles = []
 
         self.targets = []
